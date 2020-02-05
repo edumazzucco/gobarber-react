@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch } from 'react-router-dom';
 import Route from './Route';
 
-import SignIn from '../pages/Signin';
+import SignIn from '../pages/SignIn';
 import SignUp from '../pages/Signup';
 import Profile from '../pages/Profile';
 import Dashboard from '../pages/Dashboard';
