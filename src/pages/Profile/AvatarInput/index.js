@@ -20,6 +20,7 @@ export default function AvatarInput() {
                 path: 'dataset.file',
             });
         }
+        // eslint-disable-next-line
     }, [ref]);
 
     async function handleChange(e) {
