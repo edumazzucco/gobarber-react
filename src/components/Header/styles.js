@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    height: 64px;
     background: #fff;
     padding: 0 30px;
 `;
@@ -10,9 +9,10 @@ export const Content = styled.div`
     height: 64px;
     max-width: 900px;
     margin: 0 auto;
+
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
     nav {
         display: flex;
@@ -28,11 +28,11 @@ export const Content = styled.div`
             font-weight: bold;
             color: #7159c1;
         }
+    }
 
-        aside {
-            display: flex;
-            align-items: center;
-        }
+    aside {
+        display: flex;
+        align-items: center;
     }
 `;
 
@@ -61,6 +61,7 @@ export const Profile = styled.div`
 
     img {
         height: 32px;
+        width: 32px;
         border-radius: 50%;
     }
 `;
